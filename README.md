@@ -72,7 +72,8 @@ case1,0
 case2,1
 case3,0
 ...
-🏋️ Training
+
+## 🏋️ Training
 Train the model using the train.py script:
 
 bash
@@ -121,7 +122,7 @@ AUC: Area under the ROC curve
 
 F1-score: Harmonic mean of precision and recall
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 text
 msft-net/
 ├── train.py              # Training script
@@ -135,13 +136,13 @@ msft-net/
 ├── dataset/              # Dataset directory
 ├── results/              # Output directory for models and logs
 └── requirements.txt      # Dependencies list
-📝 License
+## 📝 License
 This project is licensed under the MIT License.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-📧 Contact
+## 📧 Contact
 For questions and support, please open an issue in the repository.
 
 Note: Replace your-username with your actual GitHub username in the clone URL.
