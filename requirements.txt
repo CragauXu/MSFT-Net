@@ -1,0 +1,8 @@
+albumentations==2.0.7
+einops==0.8.1
+numpy==2.3.4
+opencv_python==4.10.0.84
+opencv_python_headless==4.11.0.86
+pandas==2.3.3
+scikit_learn==1.7.2
+pytorch==2.3.1
