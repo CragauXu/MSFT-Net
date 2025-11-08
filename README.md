@@ -152,15 +152,3 @@ msft-net/
 ├── results/              # Output directory for models and logs
 └── requirements.txt      # Dependencies list
 ```
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For questions and support, please open an issue in the repository.
