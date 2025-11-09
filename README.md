@@ -12,10 +12,9 @@ The dataset consists of three complementary modalities:
 
 <div align="center">
 
-| US | SMI | SE |
+| Ultrasound Imaging | Superb Microvascular Imaging | Strain Elastography |
 |:---:|:---:|:---:|
-| ![US Sample](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/US.gif) | ![SMI Sample](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SMI.gif) | ![SE Sample](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SE.gif) |
-| **Ultrasound Imaging** | **Superb Microvascular Imaging** | **Strain Elastography** |
+| ![Ultrasound Imaging](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/US.gif) | ![Superb Microvascular Imaging](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SMI.gif) | ![Strain Elastography](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SE.gif) |
 
 </div>
 
