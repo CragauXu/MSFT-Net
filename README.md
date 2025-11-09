@@ -4,25 +4,25 @@
 
 MSFT-Net is a multimodal transformer-based model for video classification tasks.
 
-![MSFT-Net Architecture](./imgs/msft_net_architecture.png)
+![images](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/model_all.png)
 
-## 👀 Data Preview
+## 🔍 Data Description
 
-Below are sample video sequences from the three modalities processed by MSFT-Net:
+The dataset consists of three complementary modalities that capture different aspects of the video sequences:
 
 <div align="center">
 
 ### US - Ultrasound Imaging
-![US Sample](./imgs/US_sample.gif)  
-*Captures structural and anatomical features from ultrasound*
+![images](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/US.gif)
+*Standard B-mode ultrasound for anatomical structure visualization*
 
 ### SMI - Superb Microvascular Imaging  
-![SMI Sample](./imgs/SMI_sample.gif)  
-*Represents microvascular blood flow characteristics*
+![images](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SMI.gif)
+*Advanced Doppler technique for microvascular blood flow detection*
 
 ### SE - Strain Elastography
-![SE Sample](./imgs/SE_sample.gif)  
-*Provides tissue stiffness and elasticity information*
+![images](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SE.gif)
+*Quantitative assessment of tissue stiffness and elasticity*
 
 </div>
 
@@ -101,26 +101,6 @@ case3,0
 ...
 ```
 
-## 🔍 Data Description
-
-The dataset consists of three complementary modalities that capture different aspects of the video sequences:
-
-<div align="center">
-
-### US - Ultrasound Imaging
-![US Sample](./imgs/US_sample.gif)  
-*Standard B-mode ultrasound for anatomical structure visualization*
-
-### SMI - Superb Microvascular Imaging  
-![SMI Sample](./imgs/SMI_sample.gif)  
-*Advanced Doppler technique for microvascular blood flow detection*
-
-### SE - Strain Elastography
-![SE Sample](./imgs/SE_sample.gif)  
-*Quantitative assessment of tissue stiffness and elasticity*
-
-</div>
-
 ## 🏋️ Training
 
 Train the model using the train.py script:
@@ -183,7 +163,8 @@ The model evaluation includes the following comprehensive metrics:
 ```text
 msft-net/
 ├── imgs/                 # Images and GIFs for documentation
-│   ├── msft_net_architecture.png
+│   ├── msft_net_architecture.svg
+│   ├── msft_net_architecture.pdf
 │   ├── US_sample.gif
 │   ├── SMI_sample.gif
 │   └── SE_sample.gif
