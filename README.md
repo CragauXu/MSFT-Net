@@ -4,6 +4,28 @@
 
 MSFT-Net is a multimodal transformer-based model for video classification tasks.
 
+![MSFT-Net Architecture](./imgs/msft_net_architecture.png)
+
+## 👀 Data Preview
+
+Below are sample video sequences from the three modalities processed by MSFT-Net:
+
+<div align="center">
+
+### US - Ultrasound Imaging
+![US Sample](./imgs/US_sample.gif)  
+*Captures structural and anatomical features from ultrasound*
+
+### SMI - Superb Microvascular Imaging  
+![SMI Sample](./imgs/SMI_sample.gif)  
+*Represents microvascular blood flow characteristics*
+
+### SE - Strain Elastography
+![SE Sample](./imgs/SE_sample.gif)  
+*Provides tissue stiffness and elasticity information*
+
+</div>
+
 ## ✨ Features
 
 - **Multimodal Support**: Processes three distinct modalities simultaneously
@@ -48,22 +70,22 @@ Organize your dataset as follows:
 ```text
 dataset/
     case1/
-        b/          # Frames for modality b
+        US/          # Frames for US modality
             frame_001.jpg
             frame_002.jpg
             ...
-        c/          # Frames for modality c  
+        SMI/         # Frames for SMI modality  
             frame_001.jpg
             frame_002.jpg
             ...
-        e/          # Frames for modality e
+        SE/          # Frames for SE modality
             frame_001.jpg
             frame_002.jpg
             ...
     case2/
-        b/
-        c/
-        e/
+        US/
+        SMI/
+        SE/
     ...
 ```
 
@@ -78,6 +100,26 @@ case2,1
 case3,0
 ...
 ```
+
+## 🔍 Data Description
+
+The dataset consists of three complementary modalities that capture different aspects of the video sequences:
+
+<div align="center">
+
+### US - Ultrasound Imaging
+![US Sample](./imgs/US_sample.gif)  
+*Standard B-mode ultrasound for anatomical structure visualization*
+
+### SMI - Superb Microvascular Imaging  
+![SMI Sample](./imgs/SMI_sample.gif)  
+*Advanced Doppler technique for microvascular blood flow detection*
+
+### SE - Strain Elastography
+![SE Sample](./imgs/SE_sample.gif)  
+*Quantitative assessment of tissue stiffness and elasticity*
+
+</div>
 
 ## 🏋️ Training
 
@@ -140,6 +182,11 @@ The model evaluation includes the following comprehensive metrics:
 
 ```text
 msft-net/
+├── imgs/                 # Images and GIFs for documentation
+│   ├── msft_net_architecture.png
+│   ├── US_sample.gif
+│   ├── SMI_sample.gif
+│   └── SE_sample.gif
 ├── train.py              # Training script
 ├── test.py               # Testing script
 ├── models/               # Model architecture definitions
