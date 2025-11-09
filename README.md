@@ -4,25 +4,18 @@
 
 MSFT-Net is a multimodal transformer-based model for video classification tasks.
 
-![images](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/model_all.png)
+![MSFT-Net Architecture](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/model_all.png)
 
 ## 🔍 Data Description
 
-The dataset consists of three complementary modalities that capture different aspects of the video sequences:
+The dataset consists of three complementary modalities:
 
 <div align="center">
 
-### US - Ultrasound Imaging
-![images](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/US.gif)
-*Standard B-mode ultrasound for anatomical structure visualization*
-
-### SMI - Superb Microvascular Imaging  
-![images](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SMI.gif)
-*Advanced Doppler technique for microvascular blood flow detection*
-
-### SE - Strain Elastography
-![images](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SE.gif)
-*Quantitative assessment of tissue stiffness and elasticity*
+| US | SMI | SE |
+|:---:|:---:|:---:|
+| ![US Sample](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/US.gif) | ![SMI Sample](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SMI.gif) | ![SE Sample](https://github.com/CragauXu/MSFT-Net/blob/main/imgs/SE.gif) |
+| **Ultrasound Imaging** | **Superb Microvascular Imaging** | **Strain Elastography** |
 
 </div>
 
@@ -48,8 +41,8 @@ The dataset consists of three complementary modalities that capture different as
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/msft-net.git
-cd msft-net
+git clone https://github.com/CragauXu/MSFT-Net.git
+cd MSFT-Net
 ```
 
 2. Install dependencies:
@@ -161,13 +154,12 @@ The model evaluation includes the following comprehensive metrics:
 ## 🗂️ Project Structure
 
 ```text
-msft-net/
+MSFT-Net/
 ├── imgs/                 # Images and GIFs for documentation
-│   ├── msft_net_architecture.svg
-│   ├── msft_net_architecture.pdf
-│   ├── US_sample.gif
-│   ├── SMI_sample.gif
-│   └── SE_sample.gif
+│   ├── model_all.png
+│   ├── US.gif
+│   ├── SMI.gif
+│   └── SE.gif
 ├── train.py              # Training script
 ├── test.py               # Testing script
 ├── models/               # Model architecture definitions
